@@ -1,71 +1,83 @@
 * {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    text-decoration: none;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 .error-text {
-    display: block;
-    color: rgb(188, 12, 12);
+  display: block;
+  color: rgb(188, 12, 12);
 }
 body {
-    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5e48e7b6-350d-48d9-96d6-de8ca173c89f/6606c206-4339-4864-8d5e-465cb0129727/GE-en-20221219-popsignuptwoweeks-perspective_alpha_website_large.jpg);
-    
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5e48e7b6-350d-48d9-96d6-de8ca173c89f/6606c206-4339-4864-8d5e-465cb0129727/GE-en-20221219-popsignuptwoweeks-perspective_alpha_website_large.jpg);
 }
 .formSection {
-    width: 450px;
-    height: 660px;
-    margin-top: 61px;
-    margin-left:570px;
-    background-color: #000000BF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 450px;
+  height: 660px;
+  margin-top: 61px;
+  margin-left: 570px;
+  background-color: #000000bf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .signUpForm {
-    width: 314px;
-    height: 500px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
+  width: 314px;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
 }
 input {
-    background-color: rgb(35, 35, 35);
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-    margin-bottom: 5px;
-    color: aliceblue;
+  background-color: rgb(35, 35, 35);
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 5px;
+  color: aliceblue;
+  border: 1px solid rgb(35, 35, 35);
 }
-#usernamefield, #emailfield {
-    width: 100%;
+#usernamefield,
+#emailfield {
+  width: 100%;
 }
-#passwordfield, #repasswordfield {
-    width: 90%;
+#passwordfield,
+#repasswordfield {
+  width: 90%;
 }
 label {
-    color: rgb(105, 105, 105);
-    font-size: 18px;
-    margin-left: 10px;
+  color: rgb(105, 105, 105);
+  font-size: 18px;
+  margin-left: 10px;
 }
-button{
-    width: 100px;
-    height: 30px;
-    margin: 0 auto;
-    background-color: brown;
-    border-radius: 10px;
+button {
+  width: 100px;
+  height: 30px;
+  margin: 0 auto;
+  background-color: brown;
+  border-radius: 10px;
 }
 button:hover {
-    background-color: rgb(105, 12, 12);
-    cursor: pointer;
+  background-color: rgb(105, 12, 12);
+  cursor: pointer;
 }
-#toggleIcon, #toggleIcon2 {
-    color:brown;
+#toggleIcon,
+#toggleIcon2 {
+  color: brown;
 }
 p {
-    color:aliceblue;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 32px;
+  color: aliceblue;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
 }
-
+#toggleIcon:hover,
+#toggleIcon2:hover {
+  cursor: pointer;
+  color: rgb(105, 21, 21);
+}
+/*  */
+input:hover {
+  cursor: pointer;
+  border-color: aliceblue;
+}
